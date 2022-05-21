@@ -1,0 +1,253 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+@media screen and (max-width: 1200px) {
+  html {
+    font-size: 56.25%;
+  }
+}
+@media screen and (max-width: 900px) {
+  html {
+    font-size: 50%;
+  }
+}
+@media screen and (max-width: 600px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+img {
+  text-align: baseline;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+.u-margin-bottom-xl {
+  margin-bottom: 10rem !important;
+}
+
+.u-margin-bottom-l {
+  margin-bottom: 6rem !important;
+}
+
+.u-margin-bottom-m {
+  margin-bottom: 4rem !important;
+}
+
+.u-margin-bottom-s {
+  margin-bottom: 1.5rem !important;
+}
+
+.heading__second {
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.heading__tertiary {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.paragraph {
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.4em;
+  text-align: justify;
+  /* color: #777; */
+}
+.btn:link, .btn:visited {
+  display: inline-block;
+  text-transform: uppercase;
+  padding: .5rem 1.5rem;
+  border-radius: 5px;
+  transition: all 0.2s;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4);
+}
+.btn:active {
+  transform: translateX(3px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.4);
+}
+.btn-white {
+  background-color: #ccc;
+  color: #555;
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+
+body {
+  font-family: "Akshar", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.7;
+  color: #fff;
+  /* padding: 0 3rem; */
+}
+
+.header__container {
+    height: 75vh;
+    min-height: 50rem;
+    background: url(./Image/bg-img-1.jpg) no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+.w {
+    width:1080px;
+    margin:0 auto;
+}
+.flexbox_row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.flexbox_column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__wrapper {
+    display: flex;
+    flex-direction: column;
+}
+.header__nav {
+    display: flex;
+    padding-top:1rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__nav__logobox {
+    height: 8rem;
+}
+
+.header__nav__logobox img {
+    height: 100%;
+}
+.header__navbox ul {
+    display: flex;
+}
+.header__navbox ul li {
+    margin-left:2rem;
+    padding-bottom: .5rem;
+    border-bottom: 1px solid transparent;
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.header__navbox ul li a{
+    text-transform: uppercase;
+}
+
+.header__navbox ul li:hover{
+    border-bottom: 1px solid #fff;
+    transition: all 0.4s;
+}
+
+.flexbox_row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__contentbox__content {
+    flex:1;
+}
+
+.header__contentbox__picture {
+   flex:1;
+    padding-left:10%;
+}
+.header__contentbox__picture img{
+    width: 80%;
+}
+
+.feature__container {
+    background: #6B6868;
+    padding:5rem 0;
+    flex:1;
+}
+
+.feature__box {
+    padding:0 3rem;
+    flex:1;
+}
+
+.feature__box__img {
+    flex:1;
+    display: block;
+    width: 12rem;
+    height: 12rem;
+}
+
+.advantage__container__titlebox {
+  text-align: center;
+}
+
+.advantage__container {
+  color:black;
+}
+
+.advantage__container__box {
+  font-size: 1.6rem;
+  color:#666;
+}
+.advantange__ulbox {
+  padding:2rem;
+}
+.advantage__imgbox {
+  padding:5rem;
+  flex:1.5;
+}
+.advantage__imgbox img{
+  width: 100%;
+}
+.advantage__container__featurebox {
+  flex:1
+}
+
+footer{
+  background-color: #999;
+  height: 10rem;
+}
+.footer__box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;  
+  padding:1rem 0;
+}
+
+.footer__img {
+  width: 200px;
+}
+.footer__img img {
+  width: 100%;
+}
+.footer__icon {
+  display: flex;
+  flex-direction: row;
+}
